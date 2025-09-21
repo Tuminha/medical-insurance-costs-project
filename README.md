@@ -60,7 +60,6 @@ pip install pandas numpy matplotlib seaborn jupyter
 ## 📝 Project Tasks
 
 ### ✅ To Do
-- [ ] **📥 Import your dataset** - Import insurance.csv into your Python file
 - [ ] **💾 Save your dataset via Python variables** - Store dataset features in variables
 - [ ] **🔧 Build out analysis functions or class methods** - Create analysis functions
 - [ ] **🚀 Project Extensions** - Expand your analysis with additional features
@@ -72,6 +71,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 - [x] **📄 Create comprehensive README** - Set up project documentation with task tracking
 - [x] **📋 Look over your dataset** - Open insurance.csv and examine the file structure
 - [x] **🎯 Scoping Your Project** - Plan your analysis scope and define goals
+- [x] **📥 Import your dataset** - Import insurance.csv into your Python file
 
 ---
 
@@ -226,10 +226,10 @@ def analyze_age_groups(data):
 
 <div style="background-color: #e9ecef; padding: 20px; border-radius: 10px; margin: 20px 0;">
 
-**Overall Progress: 3 / 6 tasks completed (50%)**
+**Overall Progress: 4 / 6 tasks completed (67%)**
 
 <div style="background-color: #dee2e6; border-radius: 10px; height: 20px; margin: 10px 0;">
-  <div style="background-color: #28a745; height: 100%; border-radius: 10px; width: 50%; transition: width 0.3s ease;"></div>
+  <div style="background-color: #28a745; height: 100%; border-radius: 10px; width: 67%; transition: width 0.3s ease;"></div>
 </div>
 
 </div>
