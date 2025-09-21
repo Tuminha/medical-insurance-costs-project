@@ -59,99 +59,127 @@ pip install pandas numpy matplotlib seaborn jupyter
 
 ## 📝 Project Tasks
 
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0;">
-
 ### ✅ To Do
-<button onclick="toggleTask('task1')" style="background-color: #ffc107; color: black; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin: 5px;">📋 Look over your dataset</button>
-<button onclick="toggleTask('task2')" style="background-color: #ffc107; color: black; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin: 5px;">🎯 Scoping Your Project</button>
-<button onclick="toggleTask('task3')" style="background-color: #ffc107; color: black; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin: 5px;">📥 Import your dataset</button>
-<button onclick="toggleTask('task4')" style="background-color: #ffc107; color: black; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin: 5px;">💾 Save your dataset via Python variables</button>
-<button onclick="toggleTask('task5')" style="background-color: #ffc107; color: black; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin: 5px;">🔧 Build out analysis functions or class methods</button>
-<button onclick="toggleTask('task6')" style="background-color: #ffc107; color: black; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin: 5px;">🚀 Project Extensions</button>
+- [ ] **📋 Look over your dataset** - Open insurance.csv and examine the file structure
+- [ ] **🎯 Scoping Your Project** - Plan your analysis scope and define goals
+- [ ] **📥 Import your dataset** - Import insurance.csv into your Python file
+- [ ] **💾 Save your dataset via Python variables** - Store dataset features in variables
+- [ ] **🔧 Build out analysis functions or class methods** - Create analysis functions
+- [ ] **🚀 Project Extensions** - Expand your analysis with additional features
 
 ### 🔄 In Progress
-<div id="inProgress" style="min-height: 40px; background-color: #e3f2fd; border: 2px dashed #2196f3; border-radius: 5px; padding: 10px; margin: 10px 0;">
-  <em>No tasks currently in progress</em>
-</div>
+- *No tasks currently in progress*
 
 ### ✅ Done
-<div id="done" style="min-height: 40px; background-color: #e8f5e8; border: 2px solid #4caf50; border-radius: 5px; padding: 10px; margin: 10px 0;">
-  <em>No tasks completed yet</em>
-</div>
-
-</div>
+- [x] **📄 Create comprehensive README** - Set up project documentation with task tracking
 
 ---
 
 ## 📋 Task Details
 
-<div id="task1" style="display: none; background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 4px solid #ffc107;">
-  <h4>📋 Look over your dataset</h4>
-  <p><strong>Description:</strong> Open insurance.csv and examine the file structure. Note how information is organized and consider what aspects you want to investigate.</p>
-  <p><strong>Key Questions:</strong></p>
-  <ul>
-    <li>How is the data organized?</li>
-    <li>What patterns do you notice?</li>
-    <li>What relationships might exist between variables?</li>
-  </ul>
-</div>
+### 📋 Task 1: Look over your dataset
+**Description:** Open insurance.csv and examine the file structure. Note how information is organized and consider what aspects you want to investigate.
 
-<div id="task2" style="display: none; background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 4px solid #ffc107;">
-  <h4>🎯 Scoping Your Project</h4>
-  <p><strong>Description:</strong> Plan your analysis scope. Define goals, gather data, and consider analytical steps.</p>
-  <p><strong>Considerations:</strong></p>
-  <ul>
-    <li>What do you want to find out?</li>
-    <li>Which analyses will be easier to perform?</li>
-    <li>What are your project goals?</li>
-  </ul>
-</div>
+**Key Questions:**
+- How is the data organized?
+- What patterns do you notice?
+- What relationships might exist between variables?
 
-<div id="task3" style="display: none; background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 4px solid #ffc107;">
-  <h4>📥 Import your dataset</h4>
-  <p><strong>Description:</strong> Import insurance.csv into your Python file and inspect the contents.</p>
-  <p><strong>Steps:</strong></p>
-  <ul>
-    <li>Use pandas to read the CSV file</li>
-    <li>Display basic information about the dataset</li>
-    <li>Check for missing values</li>
-  </ul>
-</div>
+**Steps:**
+1. Open the `insurance.csv` file in a text editor or spreadsheet application
+2. Examine the column headers and data types
+3. Look for patterns in the data
+4. Note any interesting observations
 
-<div id="task4" style="display: none; background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 4px solid #ffc107;">
-  <h4>💾 Save your dataset via Python variables</h4>
-  <p><strong>Description:</strong> Store dataset features in variables for analysis.</p>
-  <p><strong>Considerations:</strong></p>
-  <ul>
-    <li>What types of variables to use?</li>
-    <li>How many variables to create?</li>
-    <li>How will organization impact analysis?</li>
-  </ul>
-</div>
+---
 
-<div id="task5" style="display: none; background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 4px solid #ffc107;">
-  <h4>🔧 Build out analysis functions or class methods</h4>
-  <p><strong>Description:</strong> Create functions or class methods to perform your investigations.</p>
-  <p><strong>Approaches:</strong></p>
-  <ul>
-    <li>Statistical analysis functions</li>
-    <li>Data visualization methods</li>
-    <li>Correlation analysis</li>
-    <li>Grouping and aggregation</li>
-  </ul>
-</div>
+### 🎯 Task 2: Scoping Your Project
+**Description:** Plan your analysis scope. Define goals, gather data, and consider analytical steps.
 
-<div id="task6" style="display: none; background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 4px solid #ffc107;">
-  <h4>🚀 Project Extensions</h4>
-  <p><strong>Description:</strong> Expand your analysis with additional features.</p>
-  <p><strong>Potential Extensions:</strong></p>
-  <ul>
-    <li>Organize findings into dictionaries or lists</li>
-    <li>Make predictions about influential features</li>
-    <li>Explore potential data bias</li>
-    <li>Create visualizations and reports</li>
-  </ul>
-</div>
+**Considerations:**
+- What do you want to find out?
+- Which analyses will be easier to perform?
+- What are your project goals?
+
+**Steps:**
+1. Define your research questions
+2. Identify key variables to analyze
+3. Plan your analytical approach
+4. Set realistic scope boundaries
+
+---
+
+### 📥 Task 3: Import your dataset
+**Description:** Import insurance.csv into your Python file and inspect the contents.
+
+**Steps:**
+1. Use pandas to read the CSV file
+2. Display basic information about the dataset
+3. Check for missing values
+4. Examine data types and structure
+
+**Code Example:**
+```python
+import pandas as pd
+
+# Import the dataset
+insurance_data = pd.read_csv('insurance.csv')
+
+# Display basic information
+print(insurance_data.info())
+print(insurance_data.head())
+```
+
+---
+
+### 💾 Task 4: Save your dataset via Python variables
+**Description:** Store dataset features in variables for analysis.
+
+**Considerations:**
+- What types of variables to use?
+- How many variables to create?
+- How will organization impact analysis?
+
+**Steps:**
+1. Extract columns into separate variables
+2. Consider data types (lists, arrays, etc.)
+3. Organize variables logically
+4. Plan for easy access during analysis
+
+---
+
+### 🔧 Task 5: Build out analysis functions or class methods
+**Description:** Create functions or class methods to perform your investigations.
+
+**Approaches:**
+- Statistical analysis functions
+- Data visualization methods
+- Correlation analysis
+- Grouping and aggregation
+
+**Example Functions:**
+```python
+def calculate_average_charges_by_smoker(data):
+    """Calculate average insurance charges by smoking status"""
+    return data.groupby('smoker')['charges'].mean()
+
+def analyze_age_groups(data):
+    """Analyze insurance charges by age groups"""
+    # Implementation here
+    pass
+```
+
+---
+
+### 🚀 Task 6: Project Extensions
+**Description:** Expand your analysis with additional features.
+
+**Potential Extensions:**
+- Organize findings into dictionaries or lists
+- Make predictions about influential features
+- Explore potential data bias
+- Create visualizations and reports
+- Build a simple prediction model
 
 ---
 
@@ -236,62 +264,24 @@ This project is part of the CodeAcademy Data Science curriculum and is for educa
 
 ---
 
-<script>
-function toggleTask(taskId) {
-  const task = document.getElementById(taskId);
-  const inProgress = document.getElementById('inProgress');
-  const done = document.getElementById('done');
-  
-  if (task.style.display === 'none' || task.style.display === '') {
-    task.style.display = 'block';
-  } else {
-    task.style.display = 'none';
-  }
-}
+## 📝 How to Use This README
 
-// Add drag and drop functionality for task management
-function allowDrop(ev) {
-  ev.preventDefault();
-}
+### Task Tracking
+- Use the checkboxes `- [ ]` to mark tasks as complete by changing them to `- [x]`
+- Move tasks between "To Do", "In Progress", and "Done" sections as you work
+- Update the progress bar percentage manually as you complete tasks
 
-function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-}
+### Progress Updates
+To update your progress:
+1. Check off completed tasks by changing `- [ ]` to `- [x]`
+2. Move tasks between sections as needed
+3. Update the progress percentage in the "Project Progress" section
+4. Commit and push your changes to track your progress on GitHub
 
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  ev.target.appendChild(document.getElementById(data));
-}
-</script>
-
-<style>
-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
-}
-
-a:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
-}
-
-#inProgress, #done {
-  transition: all 0.3s ease;
-}
-
-.task-item {
-  background-color: white;
-  padding: 10px;
-  margin: 5px 0;
-  border-radius: 5px;
-  border: 1px solid #dee2e6;
-  cursor: move;
-}
-
-.task-item:hover {
-  background-color: #f8f9fa;
-}
-</style>
+### Example Progress Update
+```markdown
+### ✅ Done
+- [x] **📄 Create comprehensive README** - Set up project documentation with task tracking
+- [x] **📋 Look over your dataset** - Open insurance.csv and examine the file structure
+- [x] **🎯 Scoping Your Project** - Plan your analysis scope and define goals
+```
